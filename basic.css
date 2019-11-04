@@ -1,0 +1,57 @@
+/*
+ * Basic CSS style,
+ * inspired by motherfuckingwebsite.com and bettermotherfuckingwebsite.com.
+ */
+body {
+    margin: 40px auto; /* 40px: leave some border at the top; auto: centered */
+    max-width: 650px; /* don’t make readers scan the entire screen width */
+    line-height: 1.6; /* don’t squish the lines together */
+    font-size: 18px;
+    color: #222; background: #eee; /* reduce contrast */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2; /* headers don’t need as much line height */
+}
+
+.account, .module, .branch, .commit, .version {
+    font-family: monospace;
+}
+
+.license-info {
+    font-size: 75%;
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+header {
+    margin-bottom: 1em;
+}
+
+header address {
+    display: inline;
+}
+
+header address a {
+    text-decoration: none;
+    color: unset;
+}
+
+aside {
+    margin-inline-start: 3em;
+}
+
+aside h1:first-child::before,
+aside h2:first-child::before,
+aside h3:first-child::before,
+aside h4:first-child::before,
+aside h5:first-child::before,
+aside h6:first-child::before {
+    content: "Aside: ";
+}
+
+figure {
+    text-align: center;
+    width: 100%;
+}
