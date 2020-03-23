@@ -1,27 +1,19 @@
 <!DOCTYPE html>
 <head>
+<!-- Prilagođavanje sajta mobilnim uređajima -->
 <meta name="viewport" content="width=device-width, initial-scale=1" /> 
 <body>
-<body style="background-color: powderblue;">
-<style>
-.slika {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-}
-</style>
-<h1 style="color: dimgrey;"><center>Dobrodošli na moj sajt!</h1></center>
-<p>Ja sam Zoran, dolazim iz Boke.</p>
-<img src="../slike/crkva.jpg" alt="Pravoslavna crkva u Boki" class="slika">
-    <p><center>Pravoslavna crkva u Boki</p></center>
-<h3>Video snimak</h3>
-<video width="400" controls>
-  <source src="mov_bbb.mp4" type="video/mp4">
-</video>
-<h3>Audio snimak</h3>
-<audio controls>
-  <source src="example.mp3" type="audio/mpeg">
-</audio>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<h1>Dobrodošli!</h1>
+<p>CSS se koristi za definisanje stila web stranica, uključujući dizajn, izgled i varijacije prikaza web stranice.</p>
+<p>Prema ovome, CSS se može koristiti kako bi prilagodili stranicu da se ispravno prikazuje na različitim uređajima, poput mobilnih telefona, računara i slično.</p>
+
+<p>CSS je napravljen da bi se sve ovo navedeno olakšalo, jer se prvobitno pre verzije 4.0 HTML-a koristio sam HTML i za ovu svrhu.</p>
+<p>Međutim, bilo je komplikovano da se za svaki element (pogotovo kada ima više HTML fajlova i sajt je veći) posebno navodi stil, te je napravljen CSS.</p>
+<p>Koristeći CSS, u odvojenom fajlu možemo definisati kako će izgledati nešto na stranici, te samo u HTML fajlu navedemo odgovarajućom oznakom vezu ka odgovarajućem CSS fajlu.</p>
+
+<a href="../index.html" class="next">Moj sajt</a>
+
 </body>
 </head>
