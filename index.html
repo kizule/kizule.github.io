@@ -3,6 +3,7 @@
 	<head>
 		<title>Glavna stranica</title>
 		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<link href="basic.css" rel="stylesheet">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,12 @@
 		<script src="gtag.js"></script>
 	</head>
 	<body>
+	<!-- Skripta za popup -->
+	<script>
+		$("document").ready( function () {
+			alert("Hi! If you want English version of site, type /en in URL.\n\nZdravo! Ukoliko želite verziju sajta na engleskom, unestie /en u URL-u.");
+		});
+	</script>
 	<!-- Početak zaglavlja -->
 	<div id="header" class="section">
 	<img align="center" src="avatar.jpg" class="img-circle"><br>
@@ -41,15 +48,15 @@
 			<h1><span>Moj rad na Vikipediji</span></h1>
 			<p>
 				Volontiranjem na Vikipediji,
-				a i ostalim projektima Zadužbine Vikimedije sam naučio više o timskom radu.
+				a i ostalim projektima Zadužbine Vikimedije, naučio sam mnogo o timskom radu.
 				Najviše sam aktivan na Vikipediji na srpskom jeziku,
 				gde sam jedan od administratora i birokrata.
 			</br>
 				Administrator sam postao 10. marta 2019. godine, a birokrata 27. jula iste godine.
 			</p>
-		<!-- Kraj dela o radu na Vikipediji! -->
+		<!-- Kraj dela o radu na Vikipediji -->
 		</div>
-		<!-- Kontakt -->
+		<!-- Kontakt - početak -->
 		<div class="section">
 			<h1><span>Kontakt</span></h1>
 			<p>Ukoliko želite da me kontaktirate, to možete učiniti na sledećim mestima:</p>
@@ -58,5 +65,6 @@
 				Wikimedia: <a href="https://meta.wikimedia.org/wiki/User:Zoranzoki21">Zoranzoki21</a></p>
 			  </ul>
 		</div>
+		<!-- Kontakt - kraj -->
 	</body>
 </html>
